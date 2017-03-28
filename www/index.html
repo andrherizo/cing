@@ -1,0 +1,11 @@
+<html ng-app="upload_me">
+<body ng-controller="myCtrl">
+	<form enctype="multipart/form-data" method="post">
+		<div class="file-upload">
+			<input type = "file" file-model = "myFile"/>
+			<button ng-click = "uploadFile()">upload me</button>
+		</div>
+	</form>
+	<script src="/ngciupload/assets/angular.min.js"></script>
+	<script src="/ngciupload/assets/upload.js"></script>
+</body>
